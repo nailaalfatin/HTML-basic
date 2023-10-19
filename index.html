@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabu</title>
+    <link rel="shortcut icon" href="https://www.teknovidia.com/wp-content/uploads/2022/04/Logo-Shopee.jpg" type="image/x-icon">
+    
+    <style>
+    a:link { 
+        color: rgb(201, 102, 135);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    a:visited{
+        color: rgb(240, 164, 216);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: rgb(255, 0, 242);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:active{
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    button{
+        display: inline-block; 
+        padding: 10px 25px;
+        background-color: rgb(244, 196, 237);
+        color: rgb(251, 249, 250);
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        
+    }
+    button:hover {
+        background-color: rgb(226, 59, 103);
+    }
+
+    button:active {
+        background-color: blue;
+    }
+
+</style>
+<body>
+
+
+    <!--ini buka link beda tab-->
+    <a href="https://github.com/" target="_blank">halo najia</a>
+    <br>
+    <!--ini buka link di tab yg sama-->
+    <a href="https://github.com/" target="_parent">ini pake parent</a>
+    <br>
+    <a href="https://github.com/" target="_self">ini pake self</a>
+    <br>
+    <a href="https://github.com/" target="_top">ini pake top</a>
+    <br>
+    <a href="https://dicoding.com/" target="_parent">ini yg belum dikunjungi</a>
+    <br>
+    
+    
+    <!--ini relative dan absolute-->
+    <a href="detail.html">ini Relative</a> <!--ini cuma ngasih link pendek-->
+    <br>
+    <a href="file:///Users/nailaalfatin/Documents/RPL_2023/HTML-basic/detail.html">ini absolute</a> <!--ini ngasih link lengkap-->
+    <br>
+
+    <!--image link-->
+    <a href="https://dicoding.com/">
+        <img src="https://secure.gravatar.com/avatar/019341b43c34bb322f316e57312ecaef?s=500&d=blank&r=g" 
+        alt="logo dicoding" style="height: 60px ;width: 60px; margin-top: 20px;">
+    </a>
+    <br>
+    
+    <!--button link-->
+    <button onclick="document.location='detail.html'">detail</button>
+
+</body>
+</html>

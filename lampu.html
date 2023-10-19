@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>ini pamakaian javaScript pada html</h1>
+    <p id="hello"></p>
+
+    <script>
+        document.getElementById("hello").innerHTML = "ini hello pake javaScript"
+    </script> -->
+
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "images/lampu-mati.gif"
+            } else {
+                pic = "images/lampu-nyala.gif"
+            }
+               document.getElementById('lampu').src = pic;
+
+        }
+    </script>
+
+    <h1>Lampu</h1>
+    <img id="lampu"
+    src="images/lampu-mati.gif" width="100" height="180">
+
+<p>
+    <button type="button" onclick="light(1)">light on</button>
+    <button type="button" onclick="light(0)">light off</button>
+</p>
+
+
+</body>
+</html>

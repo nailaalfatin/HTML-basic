@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 30%;
+    }
+    td,th{
+        border: 1px solid #ea6565;
+        text-align: left;
+        padding: 8px;
+    }
+    .kepala{
+        background-color: #f7a6cb;
+        color: #fff;
+    }
+    .nomor{
+        width: 10px;
+    }
+    tr:nth-child(even) {
+        background-color: rgb(249, 231, 209);
+    }
+    
+</style>
+<body>
+    <h1>Data pasien</h1>
+    <table>
+        <tr class="kepala">  
+            <th class="nomor">No</th>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Alamat</th>
+        </tr>
+
+        <tr>    
+            <td>1</td>
+            <td>Aida</td>
+            <td>7</td>
+            <td>Cijantung</td>
+        </tr>   
+        <tr>    
+            <td>2</td>
+            <td>Maryam</td>
+            <td>17</td>
+            <td>Depok</td>
+        </tr>  
+        <tr>   
+            <td>3</td>
+            <td>Ujang</td>
+            <td>55</td>
+            <td>Citayem</td>
+        </tr>   
+        <tr>    
+            <td>4</td>
+            <td>Sumbing</td>
+            <td>21</td>
+            <td>Cibubur</td>
+        </tr>   
+        <tr>    
+            <td>5</td>
+            <td>Kanaya</td>
+            <td>15</td>
+            <td>India</td>
+        </tr>   
+     </table>
+</body>
+</html>
